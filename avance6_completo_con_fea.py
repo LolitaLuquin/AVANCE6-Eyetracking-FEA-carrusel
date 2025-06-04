@@ -213,7 +213,7 @@ with st.expander("Análisis de FEA (emociones y valencia)", expanded=False):
 
         est_txt = ""
         for var, stats_ in estadisticos_fea.items():
-            est_txt += f"{var}:
+            est_txt += f"{var}:\\n"
 "
             for k, v in stats_.items():
                 est_txt += f"  {k}: {v}
